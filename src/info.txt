@@ -1,0 +1,16 @@
+Is accountable for the value of the Scrum Team’s result
+●    Defines the features/user stories
+●    Makes plan for the release
+●    Prioritizes features/backlog
+
+
+●    define the features (behavior of the app) - what product will do
+●    Plans the whole development process
+●    He/she advises both customer and dev team
+●    Priorities features which will be done first and second,
+●    He can adjust the priority even after confirmation them (everything can be change during the process)
+●    accept or reject work results
+●    leading team in right direction in order get job done
+●    motivate the team,
+●    he is the face of the customer
+●    bridge between Team and Client
