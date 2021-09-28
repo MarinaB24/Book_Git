@@ -1,0 +1,17 @@
+//todo:
+
+(clicking and selecting)      (Saving)
+                    Add             Commit              Push
+                  ___>__           ___>___           _______>_______
+                /        \        /       \         /               \
+            Working        Staging           Local                 Remove
+            Directory      Index.          Repository              Repository
+             \    \    \___<___/                   /  \ \____<_____/    /  /
+              \    \     Reset                    /    \     Fetch     /  /
+               \    \___________<________________/      \_____<_______/  /
+                \        Reset(commit)                                  /
+                  \________________________<___________________________/
+                                    Pull
+
+
+      2.from .gitignore  ->    *  when you put the star it mean all
