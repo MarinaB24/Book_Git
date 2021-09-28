@@ -1,3 +1,6 @@
+
+//todo
+
 Is accountable for the value of the Scrum Team’s result
 ●    Defines the features/user stories
 ●    Makes plan for the release
