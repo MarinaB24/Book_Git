@@ -3,3 +3,8 @@ Hello,
 Today is Monday,we are working on chapter 3
 
 this page 1
+
+
+Example explained
+Every line of code that runs in Java must be inside a class. In our example, 
+we named the class Main. A class should always start with an uppercase first letter.
