@@ -1,6 +1,37 @@
-[EXTRA] How to remove folder that accidentally tracked and pushed to GitHub Example: 
+[EXTRA] How to remove folder that accidentally tracked and pushed to GitHub Example:
 If you have accidentally pushed your .idea folder with many files in it , here is the steps to remove it. -
 Go to IntelliJ terminal in bottom menu -Type this command : git rm -r --cached .idea and hit enter -
-if it is a file you may omit -r so it will be git rm --cached fileName-This will remove .idea folder 
-from local git repo and will not track it from this point on. -Make a commit and select all un-versioned files from 
+if it is a file you may omit -r so it will be git rm --cached fileName-This will remove .idea folder
+from local git repo and will not track it from this point on. -Make a commit and select all un-versioned files from
 commit window and commit -Push it back to remote and observe it's been removed from remote repo as well
+_____________________________________________________________________________________________________
+
+BranchingBranching in git is like opening upa new timeline for
+new work to not affect what's already in the master branch.It's light-weight,
+easy to create and when things do not work you can easily remove it,
+when it works you can merge your changes into the master branch to get all your work reflected in master.?
+What is the master branch ?https://git-school.github.io/visualizing-git/
+_____________
+Git fetch, update and pull
+___________________________
+Local repositories are in the project in a folder called .git,
+which is a hidden folder•To see hidden folders on Mac, use this shortcut in the folder: Command + Shift + .
+•To see hidden folder on Windows, click on the View tab and show Hidden items
+_____________________________________________________________________________
+Git ignore file•We can ignore files we don’t need to keep track of•The .gitignorefile
+allows you to define names of file you don’t want to keep track of changes for•The .gitignorefile
+is made like any other file•Note: You can not un-track a file already been tracked using .gitignorefile.
+That's why .gitignorefile usually created before anything get staged.
+________________________________________________________________________
+-Files to ignore in a java project:-.idea-out-*.xml-*.iml
+__________________________________________________________
+Git in IntelliJ –git ignore-To make a .gitignorefile in
+the project right click on the project level -> create new file -> call it .gitignore-Add all
+the files you want to ignore tracking of-Files to ignore in a java project:-.idea-out-*.xml-*.iml
+________________________________________________________________________________________________
+Git fetch, update and pull•To check if the remote repository has
+any changes that our local repository does not have, we can fetch•Fetch
+will bring the new data without added to our local project right away •
+To update your local repository with the new changes from the remote we can pull•Pulling is more flexible.
+We will see later•Branch to branch•Updatingwill apply changes to the same branc
+____________________________________________
